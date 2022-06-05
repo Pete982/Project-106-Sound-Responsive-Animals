@@ -1,7 +1,7 @@
 function startClassification()
 {
   navigator.mediaDevices.getUserMedia({ audio: true});
-  classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/zSgce_OGU/', modelReady);
+  classifier = ml5.soundClassifier('https://storage.googleapis.com/tm-model/zSgce_OGU/model.json', modelReady);
 }
 
 function modelReady(){
