@@ -28,13 +28,13 @@ function gotResults(error, results) {
     img = document.getElementById('animal_image');
 
     if (results[0].label == "Barking") {
-      img.src = 'bark.gif';
+      img.src = 'gify (1).gif';
       dog = dog+1;
     } else if (results[0].label == "Meowing") {
-      img.src = 'meow.gif';
+      img.src = 'cat-meow.gif';
       cat = cat + 1;
     } else{
-      img.src = 'listen.gif';
+      img.src = 'ComfortabkeWeeFrigatebird-max-1mb.gif';
     }
   }
 }
